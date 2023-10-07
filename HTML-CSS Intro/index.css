@@ -45,4 +45,178 @@ p {
   background-color: blue;
 }
 
+.redRow3 {
+  width: 80px;
+  background-color: red;
+}
+
+.blueRow3 {
+  width: 80px;
+  background-color: blue;
+}
+
+.row3 {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+}
+
+.redRow4 {
+  background-color: red;
+  flex-grow: 1;
+}
+
+.blueRow4 {
+  width: 80px;
+  background-color: blue;
+}
+
+.row4 {
+  display: flex;
+  flex: 1;
+}
+
+.redRow5 {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin: auto;
+}
+
+.row5 {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.row6 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.redRow6a {
+  background-color: red;
+  width: 80px;
+  flex-grow: 2;
+}
+
+.blueRow6 {
+  width: 80px;
+  background-color: blue;
+}
+
+.redRow6b {
+  background-color: red;
+  width: 80px;
+  flex-grow: 2;
+}
+
+.row7a {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.row7b {
+  display: flex;
+  flex: 0.125;
+  flex-direction:row-reverse;
+  background-color: red;
+  width: 80px;
+}
+
+.redRow7 {
+  width: 80px;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.blueTop7 {
+  height: 20px;
+  background-color: blue;
+}
+
+.middle7 {
+  height: 20px;
+  background-color: transparent;
+}
+
+.blueBottom7 {
+  height: 20px;
+  background-color: blue;
+}
+
+.row8 {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.box1 {
+  background-color: orange;
+  width: 80px;
+}
+
+.box2 {
+  background-color: orange;
+  width: 80px;
+}
+
+.box3 {
+  background-color: orange;
+  width: 80px;
+}
+
+.box4 {
+  background-color: orange;
+  width: 80px;
+}
+
+.box5 {
+  background-color: orange;
+  width: 80px;
+}
+
+.row9 {
+  display: flex;
+  justify-content: space-between;
+  flex: auto;
+}
+
+.box19 {
+  background-color: orange;
+  width: 80px;
+  flex-grow: 1;
+}
+
+.box29 {
+  background-color: orange;
+  width: 80px;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.box39 {
+  background-color: orange;
+  width: 80px;
+  flex-grow: 1;
+}
+
+.box49 {
+  background-color: orange;
+  width: 80px;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.box59 {
+  background-color: orange;
+  width: 80px;
+  flex-grow: 1;
+}
 /* TODO: Add CSS for the rest of your solution below */
+
